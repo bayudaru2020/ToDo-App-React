@@ -10,8 +10,6 @@ const TodoItem = ({todo, toggleCompleted, deleteTodo}) => {
     }
 
 
-
-
     return (
         <div style={styles.todoItem}>
             <input type="checkbox" style={styles.checkbox} onChange={() => toggleCompleted(todo.id)}/>
